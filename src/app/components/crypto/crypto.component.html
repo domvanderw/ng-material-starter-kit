@@ -1,0 +1,5 @@
+<h1>Crypto Chips</h1><mat-chip-list aria-label="Fish selection">
+  <mat-chip *ngFor="let item of crypto$ | async">
+ {{item.symbol}}
+</mat-chip>
+</mat-chip-list>
